@@ -3,6 +3,12 @@
     "description": "Gitosis Config Reader/Writer Library",
     "license": "MIT",
     "type": "library",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
     "authors": [
         {
             "name": "Christian Münch",
@@ -10,7 +16,8 @@
         }
     ],
     "require": {
-
+        "zendframework/zend-text": "2.0.*",
+        "zendframework/zend-config": "2.0.*"
     },
     "autoload": {
         "psr-0": { "N98\\Gitosis": "src/" }
