@@ -3,12 +3,6 @@
     "description": "Gitosis Config Reader/Writer Library",
     "license": "MIT",
     "type": "library",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.zendframework.com/"
-        }
-    ],
     "authors": [
         {
             "name": "Christian Münch",
