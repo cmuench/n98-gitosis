@@ -97,14 +97,6 @@ class Group implements ElementInterface
     }
 
     /**
-     * @return string
-     */
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
      * @param string $name
      * @return Group
      */
