@@ -11,7 +11,8 @@
     ],
     "require": {
         "zendframework/zend-text": "2.0.*",
-        "zendframework/zend-config": "2.0.*"
+        "zendframework/zend-config": "2.0.*",
+        "symfony/finder": "v2.3.4"
     },
     "autoload": {
         "psr-0": { "N98\\Gitosis": "src/" }
