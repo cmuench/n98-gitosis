@@ -79,6 +79,7 @@ class Group implements ElementInterface
     {
         $this->members[] = $username;
         $this->members = array_unique($this->members);
+        sort($this->members);
 
         return $this;
     }
@@ -150,6 +151,7 @@ class Group implements ElementInterface
     {
         $this->readonly[] = $readonly;
         $this->readonly = array_unique($this->readonly);
+        sort($this->readonly);
 
         return $this;
     }
@@ -186,6 +188,7 @@ class Group implements ElementInterface
     {
         $this->writable[] = $writable;
         $this->writable = array_unique($this->writable);
+        sort($this->writable);
 
         return $this;
     }
